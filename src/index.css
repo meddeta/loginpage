@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+body {
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("./assets/back.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* styles.css */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f7fafc;
+  margin: auto;
+  border-radius: 0.50rem;
+}
+
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.error-message {
+  color: #e53e3e;
+  text-align: center;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.social-buttons button {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  width:50%;
+
+}
+.facebook {
+  background-color: #3b5998;
+  color: #ffffff;
+}
+.google {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.social-icon {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  color: #4a5568;
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 95%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.login-button {
+  background-color: #262d32;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-button:hover {
+  background-color: #2b6cb0;
+}
+
+
+.forgot-password-link {
+  font-size: 10px;
+  color: #777777;
+  text-decoration: none;
+  margin-left: 8px; 
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+.signup-text {
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-text a {
+  color: #4299e1;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
